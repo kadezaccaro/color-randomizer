@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hex Color Randomizer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <h2 class="logo">Color Randomizer</h2>
+    </nav>
+
+    <main class="grid-container">
+      <article>
+        <div class="color-square-1"></div>
+        <div class="color-info">
+          <button onclick="getRandomHex(event)" id="btn-1">Change Color</button>
+          <h1>
+            <strong>HEX:</strong>
+            <span class="hex-value-1">#FFFFFF</span>
+          </h1>
+        </div>
+      </article>
+
+      <article>
+        <div class="color-square-2"></div>
+        <div class="color-info">
+          <button onclick="getRandomHex(event)" id="btn-2">Change Color</button>
+          <h1>
+            <strong>HEX:</strong>
+            <span class="hex-value-2">#FFFFFF</span>
+          </h1>
+        </div>
+      </article>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
